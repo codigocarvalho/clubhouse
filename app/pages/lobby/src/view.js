@@ -1,6 +1,6 @@
 import { constants } from "../../_shared/constants.js";
-import Room from "./src/entities/room.js";
-import getTemplate from "./src/templates/lobbyItem.js";
+import Room from "./entities/room.js";
+import getTemplate from "./templates/lobbyItem.js";
 
 const roomGrid = document.getElementById("roomGrid");
 
