@@ -1,5 +1,6 @@
-import Room from "./entities/room.js";
-import getTemplate from "./templates/lobbyItem.js";
+import { constants } from "../../_shared/constants.js";
+import Room from "./src/entities/room.js";
+import getTemplate from "./src/templates/lobbyItem.js";
 
 const roomGrid = document.getElementById("roomGrid");
 
@@ -15,6 +16,10 @@ export default class View {
 
   static generateRoomLink({ id, topic }) {
     return `./../room/index.html?id=${id}&topic=${topic}`;
+  }
+
+  static redirectToLogin() {
+    window.location = constants.pages.login
   }
 
   static redirectToRoom(topic = "") {

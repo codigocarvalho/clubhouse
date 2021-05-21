@@ -16,20 +16,20 @@
 
 ## Checklist Features
 
-- [ ] O app deve funcionar na Web, Android e IOS
+- [x] O app deve funcionar na Web, Android e IOS
 - Login
-  - [ ] Deve ter login com GitHub
-  - [ ] Se houver dados do usuario em localStorage deve ir para lobby direto
+  - [x] Deve ter login com GitHub
+  - [x] Se houver dados do usuario em localStorage deve ir para lobby direto
 
 - Lobby
-  - [ ] Se não houver dados do usuario em localStorage deve voltar para login
+  - [x] Se não houver dados do usuario em localStorage deve voltar para login
   - [x] Mostra todas as salas ativas
   - [x] Atualiza salas em realtime
   - [x] Pode criar uma sala sem topico
   - [x] Pode criar uma sala com topico
   - [x] Pode acessar salas ativas
 - Room
-  - [ ] Se não houver dados do usuario em localStorage deve voltar para login
+  - [x] Se não houver dados do usuario em localStorage deve voltar para login
   - [x] Cria uma sala com um usuário dono
   - [x] Todos usuários futuros entram com perfil de attendees
   - [x] Notifica Lobby sobre atualizações na sala

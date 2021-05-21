@@ -1,6 +1,6 @@
 class PeerCustomModule extends globalThis.Peer {
   constructor({ config, onCall }) {
-    super(config);
+    super(...config);
 
     this.onCall = onCall;
   }

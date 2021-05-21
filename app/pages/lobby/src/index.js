@@ -1,12 +1,13 @@
 import { constants } from "../../_shared/constants.js";
+import UserDb from "../../_shared/userDb.js";
 import LobbyController from "./controller.js";
 import LobbySocketBuilder from "./util/lobbySocketBuilder.js";
 import View from "./view.js";
 
-const user = {
-  img: "https://avatars.githubusercontent.com/u/16806413?v=4",
-  username: "Henrineken " + Date.now(),
-};
+const user = UserDb.get();
+if (Object.keys(user).length) {
+  View.redirectToLogin();
+}
 
 const socketBuilder = new LobbySocketBuilder({
   socketUrl: constants.socketUrl,

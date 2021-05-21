@@ -10,7 +10,7 @@ export default class Attendee {
     this.username = name;
 
     const [firstName, lastName] = name.split(/\s/);
-    this.firstName = firstName + id;
+    this.firstName = firstName;
     this.lastName = lastName;
   }
 }

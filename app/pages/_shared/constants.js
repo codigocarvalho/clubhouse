@@ -27,4 +27,6 @@ export const constants = {
     SPEAK_REQUEST: "speakRequest",
     SPEAK_ANSWER: "speakAnswer",
   },
+  firebaseConfig: {},
+  storageKey: "clubhouse:storage:user",
 };
