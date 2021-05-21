@@ -4,15 +4,15 @@
 
 ### Página de Login
 
-<img src="https://github.com/henrineken/clubhouse/tree/main/app/assets/printscreen/clubhouse-login.PNG" width="300" alt="Login" />
+<img src="https://raw.githubusercontent.com/henrineken/clubhouse/main/app/assets/printscreen/clubhouse-login.PNG" width="300" alt="Login" />
 
 ### Página de Salas
 
-<img src="https://github.com/henrineken/clubhouse/tree/main/app/assets/printscreen/clubhouse-home.PNG" width="300" alt="Home" />
+<img src="https://raw.githubusercontent.com/henrineken/clubhouse/main/app/assets/printscreen/clubhouse-home.PNG" width="300" alt="Home" />
 
 ### Página de Sala
 
-<img src="https://github.com/henrineken/clubhouse/tree/main/app/assets/printscreen/clubhouse-room.PNG" width="300" alt="Room" />
+<img src="https://raw.githubusercontent.com/henrineken/clubhouse/main/app/assets/printscreen/clubhouse-room.PNG" width="300" alt="Room" />
 
 ## Checklist Features
 
